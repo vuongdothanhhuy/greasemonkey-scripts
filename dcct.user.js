@@ -1,8 +1,32 @@
+// ==UserScript==
+// @name DCCT Chrome Extension
+// @description DCCT
+// @downloadURL
+// @updateURL
+// @icon
+// @match *://*.tgpsaigon.net/*
+// @match *://*.trungtammucvudcct.com/*
+// @match *://*.thanhcavietnam.org/forum/*
+// @exclude
+// @namespace dcct
+// @grant none
+// @require
+// @resource
+// @run-at document-end
+// @version 0.0.1
+// ==/UserScript==
+
+// Document here: http://wiki.greasespot.net/Metadata_block
+
 'use strict';
 
-console.log('\'Allo \'Allo! Content script');
+console.log('Scanning and converting all WMP embeds into HTML5 audio elements...');
 
-//Search for WMP embed objects and replace
+// This block of code will turn WMP embed elements into HTML5 audio players
+// Tested and worked with:
+//  trungtammucvudcct.com
+//  thanhcavietnam.org/forum
+//
 var mediaDCCT = document.getElementsByTagName('embed');
 
 for (var i = 0; i < mediaDCCT.length; i++) {
@@ -14,7 +38,10 @@ for (var i = 0; i < mediaDCCT.length; i++) {
 }
 
 
-//Search for Flash embed objects and replace
+// This block of code will turn Flash audio embed elements into HTML5 audio players
+// Tested and worked with:
+//  tgpsaigon.net
+//
 var mediaTGPSG = document.getElementsByClassName('swftools');
 
 for (var i = 0; i < mediaTGPSG.length; i++) {
