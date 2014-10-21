@@ -16,7 +16,7 @@
 // @version 0.0.1
 // @copyright 2014, Vuong Do Thanh Huy (https://vuongdothanhhuy.github.io)
 // @homepageURL https://vuongdothanhhuy.github.io/greasemonkey-scripts/
-// @supportURL https://vuongdothanhhuy.github.io/greasemonkey-scripts/
+// @supportURL https://github.com/vuongdothanhhuy/greasemonkey-scripts/issues
 // ==/UserScript==
 
 // Document here: http://wiki.greasespot.net/Metadata_block
