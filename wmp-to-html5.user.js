@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name DCCT Chrome Extension
-// @description DCCT
-// @downloadURL
-// @updateURL
+// @name HTM5-gify WMP
+// @description Turns WMP audio elements into HTML5 Audio object
+// @downloadURL https://openuserjs.org/install/vuongdothanhhuy/HTM5-gify_WMP.user.js
+// @updateURL https://openuserjs.org/install/vuongdothanhhuy/HTM5-gify_WMP.user.js
 // @icon
 // @match *://*.tgpsaigon.net/*
 // @match *://*.trungtammucvudcct.com/*
