@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name HTM5-gify WMP
-// @description Turns WMP audio elements into HTML5 Audio object
+// @name WMP to HTML5 Audio
+// @description Turns WMP audio elements into HTML5 audio elements
 // @downloadURL https://openuserjs.org/install/vuongdothanhhuy/HTM5-gify_WMP.user.js
 // @updateURL https://openuserjs.org/install/vuongdothanhhuy/HTM5-gify_WMP.user.js
 // @icon
@@ -8,7 +8,7 @@
 // @match *://*.trungtammucvudcct.com/*
 // @match *://*.thanhcavietnam.org/forum/*
 // @exclude
-// @namespace dcct
+// @namespace wmptohtml5
 // @grant none
 // @require
 // @resource
